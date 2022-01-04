@@ -1,3 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.peter-parker {
+  color: orange;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  color: gray;
+  font-weight: 500;
+  word-spacing: 2px;
+}
+section {
+  margin-bottom: 130px;
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.btn {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 3px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+.top-bar {
+}
+.half-width {
+  width: 50%;
+  padding: 0 100px;
+}
+.half-width img {
+  width: 110%;
+}
+.second-bar {
+  background-image: url(images/dream-bg.png);
+  background-position: right;
 }
